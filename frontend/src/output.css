@@ -588,7 +588,23 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .bg-tahiti-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(56 24 76 / var(--tw-bg-opacity));
+}
+
+.text-center {
+  text-align: center;
 }
