@@ -1,7 +1,7 @@
 {
 
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon rota.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.3",
