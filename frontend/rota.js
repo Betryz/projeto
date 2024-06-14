@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,  'index.html'));
 });
 
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src',  'login.html'));
+});
 
 
 const PORT = process.env.port || 3000;
