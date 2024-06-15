@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +9,45 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-tahiti-500">
+<body >
     <div class="container ">
 
-        <main class="flex justify-center ">
+        <main class=" flex  justify-center ">
 
-            <div class="border-solid border-b-tahiti-400 border-3">
-                <div class="">
+            <div class=" my-5  w-96  p-5">
+                <div class="flex  justify-center ">
+                    <img class="" src="img/telescopio.png" alt="">
+                    <p class="mt-2.5 text-2xl ">Tryx</p>
+                        
+                </div>
+
+                <input  class="bg-tahiti-300 h-1  w-full" >
+                
+                <div >
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
                     <div class="mt-2.5">
-                        <input type="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 
-                  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2
-                   focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="fulano@gmail.com">
+                        <input type="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-4 py-2 
+                    shadow-sm ring-1 ring-inset  placeholder:text-gray-400 focus:ring-2
+                   focus:ring-inset sm:text-sm sm:leading-6" placeholder="fulano@gmail.com">
                     </div>
                 </div>
-                <div class="col-12">
+                <div >
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Senha</label>
                     <div class="mt-2.5">
                         <input type="password" id="senha" autocomplete="given-name" class="block w-full rounded-md 
                   border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 
                   ring-inset ring-gray-300 placeholder:text-gray-400 
                   focus:ring-2 focus:ring-inset focus:ring-indigo-600 
-                  sm:text-sm sm:leading-6"> <span class="position-absolute top-50 end-0 translate-middle-y p-0 me-2">
-                    <i class="fakepasswordicon fas fa-eye-slash cursor-pointer p-2"></i>
+                  sm:text-sm sm:leading-6" placeholder="password"> <span class="position-absolute top-50 end-0 translate-middle-y p-0 me-2">
+                            <i class="fakepasswordicon fas fa-eye-slash cursor-pointer p-2"></i>
                 </span>
                     </div>
                 </div>
                 <div class="lx za zg">
                    
                 
-                <div class="mt-10">
-                    <button type="submit" class="block w-full rounded-md bg-tahiti-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-tahiti-200 focus-visible:outline 
+                <div >
+                    <button type="submit" class="block w-full rounded-md bg-tahiti-300 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-tahiti-100 focus-visible:outline 
                 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Login</button>
                 </div>
             </div>
