@@ -6,14 +6,16 @@ module.exports = {
     colors: {
       'tahiti':{
        100: '#1C646D',
-       200: '#38184C',
+       200: '#381840',
        300: '#A0CD60',
+       400: '#fff',
       },
-     fontFamily: {
-        
-     },
-
     },
+    fontFamily: {
+        'Josefin Sans' : [ 'Josefin Sans', 'sans-serif' ],
+      },
+
+  
   },
   plugins: [],
 }
