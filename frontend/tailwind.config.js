@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}" , './custom.css'],
   theme: {
     extend: {},
     colors: {
@@ -14,6 +14,8 @@ module.exports = {
     fontFamily: {
         'Josefin Sans' : [ 'Josefin Sans', 'sans-serif' ],
       },
+  
+
 
   
   },

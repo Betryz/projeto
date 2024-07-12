@@ -653,9 +653,9 @@ html {
   border-width: 0px;
 }
 
-.bg-tahiti-200 {
+.bg-tahiti-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(56 24 64 / var(--tw-bg-opacity));
+  background-color: rgb(28 100 109 / var(--tw-bg-opacity));
 }
 
 .bg-tahiti-300 {
@@ -703,11 +703,6 @@ html {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .text-center {
