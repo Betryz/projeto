@@ -2,13 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}" , './custom.css'],
   theme: {
-    extend: {},
+ 
     colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#FFFFFF',
       'tahiti':{
        100: '#1C646D',
        200: '#381840',
        300: '#A0CD60',
-       400: '#fff',
+      
       },
     },
     fontFamily: {

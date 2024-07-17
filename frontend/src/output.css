@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -596,17 +596,34 @@ html {
   inset-inline-end: 0px;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-96 {
+  margin: 24rem;
+}
+
+.m-36 {
+  margin: 9rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.me-2 {
-  margin-inline-end: 0.5rem;
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.me-2 {
+  margin-inline-end: 0.5rem;
 }
 
 .mt-2\.5 {
@@ -621,8 +638,20 @@ html {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
 .h-1 {
   height: 0.25rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .w-96 {
@@ -633,12 +662,24 @@ html {
   width: 100%;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .rounded-md {
@@ -658,18 +699,27 @@ html {
   background-color: rgb(28 100 109 / var(--tw-bg-opacity));
 }
 
+.bg-tahiti-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 24 64 / var(--tw-bg-opacity));
+}
+
 .bg-tahiti-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(160 205 96 / var(--tw-bg-opacity));
 }
 
-.bg-tahiti-400 {
+.bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-0 {
   padding: 0px;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-2 {
@@ -727,6 +777,11 @@ html {
   line-height: 1.5rem;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -746,6 +801,11 @@ html {
 .hover\:bg-tahiti-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(28 100 109 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-tahiti-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(160 205 96 / var(--tw-bg-opacity));
 }
 
 .focus\:ring-2:focus {
