@@ -6,12 +6,23 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'white': '#FFFFFF',
+      white: '#fff',
       'tahiti':{
        100: '#1C646D',
        200: '#381840',
        300: '#A0CD60',
+       400: '#ffffff',
       
+      },
+
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '8rem',
+          lg: '16rem',
+          xl: '20rem',
+          '2xl': '12rem',
+        },
       },
     },
     fontFamily: {

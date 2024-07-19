@@ -15,25 +15,26 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-white ">
-    <div class="container-fluid">
+<body class="container-fluid ">
+    <div class="flex justify-center  items-center ">
 
-        <main class="grid justify-center  w-full ">
-
-
-
-            <div class=" my-5  w-full bg-white  justify-center   rounded-md  ">
-
-                <div class="flex  justify-center ">
-                    <a href="index.html">
-                        <img class="px-3" src="img/telescopio.png" alt="">
-                        <p class="mt-2.5 font-semibold text-2xl ">Tryx</p>
-                    </a>
+        <main class="mt-24" >
 
 
-                </div>
 
-                <input class="bg-tahiti-300 h-1 rounded-xl  w-full">
+            <div class="flex  justify-center my-5 ">
+                <a href="index.html">
+                    <img class="px-3" src="img/telescopio.png" alt="">
+                    <p class="mt-2.5 font-semibold text-2xl ">Tryx</p>
+                </a>
+
+
+            </div>
+
+            <input class="bg-tahiti-300 h-1 rounded-xl  w-full">
+
+            <div id="login" class=" rounded-md  ">
+
 
                 <div>
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
@@ -64,19 +65,8 @@
 
             </div>
 
+            <div id="cadastro" class="rounded-md ">
 
-            <div class=" my-5  w-full bg-white   rounded-md ">
-
-                <div class="flex  justify-center ">
-                    <a href="index.html">
-                        <img class="px-3" src="img/telescopio.png" alt="">
-                        <p class="mt-2.5 font-semibold text-2xl ">Tryx</p>
-                    </a>
-
-
-                </div>
-
-                <input class="bg-tahiti-300 h-1 rounded-xl  w-full">
 
                 <div>
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
@@ -86,6 +76,27 @@
                    focus:ring-inset sm:text-sm sm:leading-6" placeholder="fulano@gmail.com">
                     </div>
                 </div>
+
+
+                <div>
+                    <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                    <div class="mt-2.5">
+                        <input type="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-4 py-2 
+                    shadow-sm ring-1 ring-inset  placeholder:text-gray-400 focus:ring-2
+                   focus:ring-inset sm:text-sm sm:leading-6" placeholder="fulano@gmail.com">
+                    </div>
+                </div>
+
+
+                <div>
+                    <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                    <div class="mt-2.5">
+                        <input type="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-4 py-2 
+                    shadow-sm ring-1 ring-inset  placeholder:text-gray-400 focus:ring-2
+                   focus:ring-inset sm:text-sm sm:leading-6" placeholder="fulano@gmail.com">
+                    </div>
+                </div>
+
                 <div class="mt-2.5">
                     <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Senha</label>
                     <div class="mt-2.5">
@@ -102,18 +113,12 @@
 
                 <div class="my-6">
                     <button type="submit" class="block w-full rounded-md bg-tahiti-300 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-tahiti-100 focus-visible:outline 
-        focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Login</button>
+        focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Cadastro</button>
                 </div>
 
 
 
             </div>
-
-
-
-
-
-
 
             <div class="lx za zg ">
 
@@ -122,14 +127,14 @@
 
                 <input class="bg-tahiti-200 h-0.5 w-full" type="text">
                 <div class="flex w-full justify-between my-6">
-                    <div class="">
-                        <button
+                    <div class="px-24">
+                        <button id="butaologin"
                             class="block w-36 rounded-md p-1 bg-tahiti-100 text-center text-sm font-semibold text-white shadow-sm hover:bg-tahiti-300 focus-visible:outline 
                     focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Login</button>
                     </div>
 
-                    <div class="">
-                        <button
+                    <div class="px-24">
+                        <button id="butaocadastro"
                             class="block w-36 rounded-md bg-tahiti-100  p-1 text-center text-sm font-semibold text-white shadow-sm hover:bg-tahiti-300 focus-visible:outline 
                     focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Cadastro</button>
                     </div>
@@ -155,6 +160,7 @@
 
     </div>
 
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>
